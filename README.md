@@ -9,6 +9,18 @@ and gives you a one-tap way to do it.
 
 > A pretty CRM nobody opens is worth zero. An ugly nudge engine used daily is worth everything.
 
+## Screenshots
+
+*Seeded demo data — all names and contacts are fictional.*
+
+**Dashboard** — your network at a glance: contact count and the pending nudge queue.
+
+![Dashboard with seeded demo data](assets/dashboard.png)
+
+**Import** — LinkedIn `Connections.csv` in, normalized and deduped contact graph out.
+
+![LinkedIn CSV import flow](assets/import.png)
+
 ## How it works
 
 1. **Import your network** — LinkedIn CSV import with aggressive normalization and dedup
@@ -41,8 +53,6 @@ magic-link auth · AES-encrypted OAuth tokens
 Active development, personal-use scope (single-user by design). Current surface: auth,
 LinkedIn import, contact graph + normalization pipeline, warmth scoring, AI draft
 generation, nightly digest job.
-
-<!-- TODO before public: screenshots of the nudge queue + import flow (seeded demo data) -->
 
 ## Running it
 
