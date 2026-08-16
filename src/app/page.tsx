@@ -33,10 +33,13 @@ export default async function Home() {
             <div className="text-2xl font-bold">{people ?? 0}</div>
             <div className="text-xs text-[#9aa0ad]">contacts</div>
           </div>
-          <div className="bg-[#15171e] rounded-xl p-4">
+          <Link
+            href="/nudges"
+            className="block bg-[#15171e] rounded-xl p-4 hover:ring-1 hover:ring-[#6e78ff]/50"
+          >
             <div className="text-2xl font-bold">{pending ?? 0}</div>
-            <div className="text-xs text-[#9aa0ad]">nudges pending</div>
-          </div>
+            <div className="text-xs text-[#9aa0ad]">nudges pending →</div>
+          </Link>
         </div>
 
         <Link

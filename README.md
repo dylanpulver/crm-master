@@ -13,7 +13,13 @@ and gives you a one-tap way to do it.
 
 *Seeded demo data — all names and contacts are fictional.*
 
-**Dashboard** — your network at a glance: contact count and the pending nudge queue.
+**Nudge queue** — the daily surface: who to warm up today, ranked. Each row shows
+why-now, live warmth, the AI draft when one exists, and one-tap done / snooze.
+
+![Nudge queue with seeded demo data](assets/nudge-queue.png)
+
+**Dashboard** — your network at a glance: contact count and the pending nudge queue
+(the stat card links straight into the queue).
 
 ![Dashboard with seeded demo data](assets/dashboard.png)
 
@@ -52,7 +58,8 @@ magic-link auth · AES-encrypted OAuth tokens
 
 Active development, personal-use scope (single-user by design). Current surface: auth,
 LinkedIn import, contact graph + normalization pipeline, warmth scoring, AI draft
-generation, nightly digest job.
+generation, nightly digest job, and the nudge queue page (`/nudges`) — the ranked daily
+surface with one-tap done / snooze.
 
 ## Running it
 
