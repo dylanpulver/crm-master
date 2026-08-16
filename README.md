@@ -1,5 +1,7 @@
 # crm-master
 
+[![CI](https://github.com/dylanpulver/crm-master/actions/workflows/ci.yml/badge.svg)](https://github.com/dylanpulver/crm-master/actions/workflows/ci.yml)
+
 **A behavioral relationship engine — a personal CRM that does the discipline for you.**
 
 Most CRMs are databases you stop opening. The system is never the bottleneck — *you* are.
